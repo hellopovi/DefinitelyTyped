@@ -167,6 +167,7 @@ export interface IOptions extends tds.ConnectionOptions {
     instanceName?: string;
     trustedConnection?: boolean;
     useUTC?: boolean;
+    multiSubnetFailover?: boolean;
 }
 
 export interface IPool {
